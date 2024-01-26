@@ -20,7 +20,6 @@ time_domain_1_3_25 = time_domain_1_3_25.drop(time_domain_1_3_25.index[1756 - 440
 time_domain_1_3_1 = time_domain_1_3_1.reset_index()
 time_domain_1_3_1.drop('index', axis=1, inplace = True)
 
-
 time_domain_1_3_10 = time_domain_1_3_10.reset_index()
 time_domain_1_3_10.drop('index', axis=1, inplace = True)
 
